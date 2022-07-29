@@ -7,13 +7,13 @@ import {HelloFunctionalES6} from './Components/HelloFunctionaES6';
 import Display from './Components/Display';
 import Welcome from './Components/Welcome';
 import Counter from './Components/Counter'
-
+import FormComponent  from './Components/FormComponent';
 
 function App() {
   return (
     
- <div className="App">
-   {/* 
+  <div className="App">
+  {/* 
     <h2>Hello App Component</h2> 
     <HelloFunctional></HelloFunctional>
     <HelloFunctional/>
@@ -29,9 +29,11 @@ function App() {
     </Display>
   */
    /* <Welcome />*/
+   /*<Counter/>*/
 }
 
-<Counter/>
+<FormComponent/>
+
     </div>
  
   );
